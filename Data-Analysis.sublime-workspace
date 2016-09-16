@@ -423,13 +423,6 @@
 	},
 	"buffers":
 	[
-		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -934,37 +927,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"default_dir": "/home/hshahin/workspaces/thesis_project",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1534,9 +1498,17 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "th",
 		"selected_items":
 		[
+			[
+				"th",
+				"~/workspaces/thesis_project/thesis_project.sublime-project"
+			],
+			[
+				"data",
+				"~/workspaces/training/Udemy/Data-Analysis/Data-Analysis.sublime-project"
+			],
 			[
 				"ruby",
 				"~/workspaces/code-workout/ruby.sublime-workspace"
