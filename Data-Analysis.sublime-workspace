@@ -423,6 +423,25 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 232,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nPackage Control\n---------------\n\n  Version 3.2 Release Notes\n  \n  This version of Package Control focuses on bug-fixes, with notable changes\n  including:\n  \n   - OS X TLS trust roots are exported using APIs to prevent the error message\n     displayed to some El Capitan users\n  \n   - Theme, syntax and color scheme upgrades have been improved and should result\n     in fewer popup messages when filenames change\n  \n   - Various bugs related to installing dependencies have been resolved\n  \n   - Windows and OS X trust roots are exported in a way that valid/invalid purpose\n     information is now communicated to the OpenSSL-based Python ssl module\n  \n   - Further improvements have been made to handling of git/hg package upgrades\n  \n   - The Windows WinINet downloader has improved compatibility with Windows 10\n",
+			"settings":
+			{
+				"buffer_size": 865,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -927,8 +946,68 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								232,
+								232
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 865,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								865,
+								865
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"default_dir": "/home/hshahin/workspaces/training/Udemy/Data-Analysis",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -980,6 +1059,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"rad",
+				"README.md"
+			],
 			[
 				"modelinst",
 				"OpenDSA-LTI/app/models/inst_book.rb"
@@ -1487,10 +1570,6 @@
 			[
 				"modelexeratt",
 				"OpenDSA-LTI/app/models/odsa_exercise_attempt.rb"
-			],
-			[
-				"modelbookprogress",
-				"OpenDSA-LTI/app/models/odsa_book_progress.rb"
 			]
 		],
 		"width": 0.0
@@ -1498,9 +1577,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "th",
+		"last_filter": "dev",
 		"selected_items":
 		[
+			[
+				"dev",
+				"~/workspaces/ODSA-DevStack-CW/OpenDSA-DevStack.sublime-workspace"
+			],
 			[
 				"th",
 				"~/workspaces/thesis_project/thesis_project.sublime-project"
